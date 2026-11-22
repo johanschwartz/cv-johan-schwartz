@@ -40,7 +40,9 @@ def main() -> int:
     # 2. HTML -> PDF with headless Chromium, using the page size in style.css.
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch()
+            # Unhinted text. With Chromium's default font hinting on Linux, lines
+            # wrap differently and the CV runs to three pages.
+            browser = p.chromium.launch(args=["--font-render-hinting=none"])
             page = browser.new_page()
             page.goto(HTML.as_uri())
             page.wait_for_load_state("networkidle")
