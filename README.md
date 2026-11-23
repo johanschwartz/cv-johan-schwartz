@@ -30,13 +30,14 @@ I have worked across defence, public sector, telecom, finance, media, retail, au
 
 **Lead Enterprise Architect**, Mar 2026 - present
 
+- Selected as one of Saab's key employees for 2027.
 - Shape the direction of Enterprise Architecture at Saab together with the Chief Architect & Head of EA.
 - Designed and built the enterprise architecture platform hands-on, accelerated with AI. At its core is a shared reference library of business capabilities, value streams, meta model, principles and policies, managed as code and published as an internal software package. People and AI agents build on the same machine-readable source.
 - Built and operate an EA chatbot that answers from the shared library, running in a private Azure landing zone with AI Foundry and private endpoints, within enterprise-grade guardrails following NIST SP 800-171 and other standards.
 - Built capability assessment on Teece's dynamic capabilities (Sense, Seize, Reconfigure) as decision support for digital change.
 - Leading the move of architects' work to architecture as code, where architecture is handled like software.
 - Helping Brand & Communication govern the Saab brand with code across all products and presence, from cockpit HMI and apps to web, video, social media and trade fairs. Built a prototype of the full chain: AI agents turn design work into a versioned brand specification that every team builds from, and a brand agent reviews layout and tone against it.
-- Supporting other units with cloud and developer platforms, including cloud-native client solutions close to developers, such as Azure Dev Box, for developer independence.
+- Supporting other units with cloud-native clients close to developers, like Azure Dev Box, for developer independence.
 
 **Lead Architect**, Mar 2024 - Mar 2026: Common Tech, Digital Accelerator, and IT Strategy & Transformation Enablement
 
